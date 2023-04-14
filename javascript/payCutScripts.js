@@ -29,7 +29,8 @@ function getInflationJSON(inflationType) {
     
     document.getElementById("jsonData").innerHTML = JSON.stringify(jsonData);
     document.getElementById("load").innerHTML = loaded;
+    console.log("jon below")
     console.log(jsonData)
-    })()
+    })() 
 }
 
