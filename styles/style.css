@@ -34,6 +34,7 @@ section.resume-section .resume-section-content {
   align-items: center;
 }
 .project-details .project-icon {
+  text-decoration: none;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -127,6 +128,7 @@ body {
 }
 
 .social-icons .social-icon {
+  text-decoration: none;
   display: inline-flex;
   align-items: center;
   justify-content: center;

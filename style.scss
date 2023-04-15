@@ -25,7 +25,6 @@ $outline-color_1: #d48a6e;
 	}
 }
 
-
 section.resume-section {
 	display: flex;
 	align-items: center;
@@ -46,8 +45,8 @@ section.resume-section {
     display: flex;
 	align-items: center; 
 	
-
     .project-icon {
+		text-decoration: none;
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
@@ -132,6 +131,7 @@ body {
 }
 .social-icons {
 	.social-icon {
+		text-decoration: none;
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
