@@ -1,8 +1,27 @@
+
 $color_1: #6c757d;
 $color_2: #fff;
 $background-color_1: #495057;
 $background-color_2: #bd5d38;
+$background-color_3: #9b98986b;
 $outline-color_1: #d48a6e;
+
+// Default colours override 
+$primary:  #ce8933;
+
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+// Create your own map of custom colours. This lets you access them using HTML Classes
+$custom-colors: (
+  
+);
+
+// Merge the default and custom maps together 
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+body {
+    font-family: sans-serif;
+}
 
 /* SideBar Setup */
 /* Offset Contents for SideBar */
@@ -14,7 +33,7 @@ $outline-color_1: #d48a6e;
 			.nav-link {
 				font-weight: 800;
 				letter-spacing: 0.05rem;
-				text-transform: lowercase;
+
 			}
 		}
 	}
@@ -63,6 +82,21 @@ section.resume-section {
 		&:hover {
 			background-color: $background-color_2;
 		}
+		
+	}
+	.project-icon-placeholder {
+		text-decoration: none;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		height: 3.5rem;
+		width: 3.5rem;
+		background-color: $background-color_3;
+		color: $color_2;
+		border-radius: 100%;
+		font-size: 1.5rem;
+        margin-left: 1rem;
+		opacity: 1;
 	}
 }
 
@@ -148,6 +182,7 @@ body {
 		&:hover {
 			background-color: $background-color_2;
 		}
+		
 	}
 }
 

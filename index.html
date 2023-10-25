@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="styles/style.css" /> 
+    
     <title>Samuel House</title>
 </head>
 <body id="page-top">
@@ -21,8 +22,8 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav">
             <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
             <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
             <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
             <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
             <li class="nav-item"><a class="nav-link" href="#interests">Interests</a></li>
@@ -43,7 +44,7 @@
               Medical Doctor & Software Developer 
               
           </div>
-          <p class="lead mb-5">I am a medical doctor based in the United Kingdom with a keen interest in software development for medical and medical educational purposes.</p>
+          <p class="lead mb-5">I am a medical doctor based in the United Kingdom with a keen interest in software development for leisure, medical, and educational purposes.</p>
           <div class="social-icons">
               <a class="social-icon" href="https://www.linkedin.com/in/samuel-house-47b028269/"><i class="fab fa-linkedin-in"></i></a>
               <a class="social-icon" href="https://github.com/BarkingTree"><i class="fab fa-github"></i></a>
@@ -52,62 +53,111 @@
       </div>
   </section>
   <hr class="m-0" />
+
+<!-- Experience-->
+<section class="resume-section" id="experience">
+    <div class="resume-section-content">
+        <h2 class="mb-5 resume-section-title">Experience</h2>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+                <h3 class="mb-0">Foundation Doctor</h3>
+                <div class="subheading mb-3">Nottingham University Hospitals & United Lincolnshire Hospitals</div>
+
+            </div>
+            <div class="flex-shrink-0 flex-column"><span class="text-primary">August 2022 - August 2024</span></div>
+        </div>
+
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1">
+              <h3 class="mb-0">Independent Developer</h3>
+              <div class="subheading mb-3">Creator of the following <a href="#projects"> projects</a></div>
+              <p></p>
+          </div>
+          <div class="flex-shrink-0 flex-column"><span class="text-primary">2022 - Present</span></div>
+      </div>
+    </div>
+</section>
+<hr class="m-0" />
+
+
     <!-- Projects-->
     <section class="resume-section" id="projects">
         <div class="resume-section-content">
             <h2 class="mb-5 resume-section-title">Projects</h2>
-             <!-- Project One-->
+
+            <!--Admirari-->
             <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
-                    <h3 class="mb-0">Doctor's Pay Cut Calculator <i class="fab fa-square-js"></i>
-                        <i class="fab fa-html5"></i>
-                        <i class="fab fa-css3-alt"></i>
-                        <i class="fab fa-bootstrap"></i> </h3>
-                    <div class="subheading mb-3">A javascript project to showcase the pay erosion of doctors since 2008.</div>
-                    <p>Originally written in Python before being rewritten in Javascript </p>
+                    <h3 class="mb-0">Admirari 
+                        <i class="fa-brands fa-swift"></i>
+                     </h3>
+                     <span class="text-primary">April 2023 - Present </span>
+                    <div class="subheading mb-3">A SwiftUI project that uses the wikipedia API and MapKit to display wikipedia 
+                        articles nearby to the users location.</div>
                 </div>
                 <div class="flex-shrink-0 project-details">
-                    <span class="text-primary">April 2023 - Present </span>
+                    
                     <a class="project-icon" href=""><i class="fab fa-github"></i></a>
-                    <a class="project-icon" href="html/payCutCalculator.html"><i class="fa-regular fa-circle-play"></i></a>
+                    <a class="project-icon" href="https://apps.apple.com/gb/app/admirari/id6461533377"><i class="fa-brands fa-app-store"></i></a>
                 </div>
             </div>
 
-            <!-- Project Two-->
+             <!--Haptic Heart-->
             <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
-                    <h3 class="mb-0">Sole Developer</h3>
-                    <div class="subheading mb-3">Haptic Heart Project</div>
-                    <p>Sole developer of the Haptic Heart Project</p>
+                    <h3 class="mb-0">Haptic Heart
+                        <i class="fa-brands fa-swift"></i>
+                        </h3>
+                    <span class="text-primary">September 2021 - Present </span>
+                    <div class="subheading mb-3">A SwiftUI project using haptic feedback to simulate cardiovascular examination findings.
+                        Currently undergoing clinical evaluation with Lincoln Medical School.
+                    </div>
                 </div>
-                <div class="flex-shrink-0"><span class="text-primary">March 2021 - Present</span></div>
+                <div class="flex-shrink-0 project-details">
+                    <a class="project-icon" href="https://github.com/BarkingTree/Haptic-Heart"><i class="fab fa-github"></i></a>
+                    <!--Currently Disabled-->
+                    <a class="project-icon-placeholder"><i class="fa-brands fa-app-store"></i></a>
+                </div>
             </div>
-        </div>
+
+            <!-- Doctor Pay Cut Calculator JS -->
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0">Doctor's Pay Cut Calculator Javascript
+                        <i class="fab fa-square-js"></i>
+                        <i class="fab fa-html5"></i>
+                        <i class="fab fa-css3-alt"></i>
+                        <i class="fab fa-bootstrap"></i> 
+                        </h3>
+                    <span class="text-primary">January 2023 - Present </span>
+                    <div class="subheading mb-3">A web project using javascript to
+                        showcase the pay erosion of UK doctors since 2008. An alternative to Python.</div>
+                </div>
+                <div class="flex-shrink-0 project-details">
+                    <a class="project-icon" href="https://github.com/BarkingTree/DoctorsPayCutCalculatorJS"><i class="fab fa-github"></i></a>
+                    <a class="project-icon" href="https://barkingtree.github.io/DoctorsPayCutCalculatorJS//"><i class="fa-regular fa-circle-play"></i></a>
+                </div>
+            </div>
+
+            <!--Doctor Pay Cut Calculator-->
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0">Doctor's Pay Cut Calculator 
+                        <i class="fa-brands fa-python"></i>
+                        </h3>
+                    <span class="text-primary">September 2021 - Present </span>
+                    <div class="subheading mb-3">A Python project using streamlit to
+                        showcase the pay erosion of UK doctors since 2008.</div>
+                </div>
+                <div class="flex-shrink-0 project-details">
+                    <a class="project-icon" href="https://github.com/BarkingTree/DoctorsPayCutCalculator"><i class="fab fa-github"></i></a>
+                    <a class="project-icon" href="https://barkingtree-pythonpaycalculator-paycalculator-1ul8l4.streamlit.app"><i class="fa-regular fa-circle-play"></i></a>
+                </div>
+            </div>
+
     </section>
     <hr class="m-0" />
-  <!-- Experience-->
-  <section class="resume-section" id="experience">
-      <div class="resume-section-content">
-          <h2 class="mb-5 resume-section-title">Experience</h2>
-          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-              <div class="flex-grow-1">
-                  <h3 class="mb-0">Foundation Doctor</h3>
-                  <div class="subheading mb-3">Nottingham University Hospitals</div>
-                  <p>Gastroenterology | Adult Psychiatry | Colorectal Surgery | Accident & Emergency | Paediatrics | General Surgery</p>
-              </div>
-              <div class="flex-shrink-0"><span class="text-primary">August 2022 - August 2024</span></div>
-          </div>
-          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-              <div class="flex-grow-1">
-                  <h3 class="mb-0">Sole Developer</h3>
-                  <div class="subheading mb-3">Haptic Heart Project</div>
-                  <p>Sole developer of the Haptic Heart Project</p>
-              </div>
-              <div class="flex-shrink-0"><span class="text-primary">March 2021 - Present</span></div>
-          </div>
-      </div>
-  </section>
-  <hr class="m-0" />
+
   <!-- Education-->
   <section class="resume-section" id="education">
       <div class="resume-section-content">
@@ -115,13 +165,15 @@
           <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
               <div class="flex-grow-1">
                   <h3 class="mb-0">Bachelor of Medicine Bachelor of Surgery</h3>
+                  <span class="text-primary">BMBS</span>
                   <div class="subheading mb-3">University of Plymouth</div>
               </div>
               <div class="flex-shrink-0"><span class="text-primary"> 2016 - 2022</span></div>
           </div>
           <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="flex-grow-1">
-                <h3 class="mb-0">Masters in Clinical Education with Distinction</h3>
+                <h3 class="mb-0">Masters in Clinical Education</h3>
+                <span class="text-primary">MClinEd(Dis)</span>
                 <div class="subheading mb-3">University of Plymouth</div>
             </div>
             <div class="flex-shrink-0"><span class="text-primary"> 2021 - 2022</span></div>
@@ -142,23 +194,19 @@
               <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
               <li class="list-inline-item"><i class="fab fa-bootstrap"></i></li>
           </ul>
-          <div class="subheading mb-3">Workflow</div>
-          <ul class="fa-ul mb-0">
-              <li>
-                  <span class="fa-li"><i class="fas fa-check"></i></span>
-                  Mobile-First, Responsive Design
+          <div class="subheading mb-3">Personal Traits</div>
+          <ul class="list mb-0">
+              <li class="list-group-item">
+                  Motivated
               </li>
-              <li>
-                  <span class="fa-li"><i class="fas fa-check"></i></span>
-                  Cross Browser Testing & Debugging
+              <li class="list-group-item">
+                  Engaged
               </li>
-              <li>
-                  <span class="fa-li"><i class="fas fa-check"></i></span>
-                  Cross Functional Teams
+              <li class="list-group-item">
+                  Calm under pressure
               </li>
-              <li>
-                  <span class="fa-li"><i class="fas fa-check"></i></span>
-                  Agile Development & Scrum
+              <li class="list-group-item">
+                  Team Player
               </li>
           </ul>
       </div>
@@ -168,8 +216,7 @@
   <section class="resume-section" id="interests">
       <div class="resume-section-content">
           <h2 class="mb-5 resume-section-title">Interests</h2>
-          <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-          <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+          <p>When I'm not working as a doctor or tinkering as a software developer I enjoy hiking, baking, working out in the gym, and running. </p>
       </div>
   </section>
   <hr class="m-0" />
